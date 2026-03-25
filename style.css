@@ -3,5 +3,23 @@ p{
     color: rgb(36, 214, 172);
     font-size:10vh ;
     background-color: aqua;
+    position: relative;
     
 }
+
+
+#hahn{
+position: relative;
+width: 50vw;
+opacity: 50%;
+border:7px solid black;
+
+}
+
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
