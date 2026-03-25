@@ -4,6 +4,10 @@ width:10vw;
 
 }
 
+.button:hover{
+    width:12vw;
+}
+
 
 p{
 
@@ -12,8 +16,25 @@ p{
     background-color: aqua;
     position: relative;
     font-family: myfont;
+    opacity: 0.2;
+    transition: background-color 2s;
+    transition: opacity 2s;
+
+
     
 }
+
+
+p:hover{
+    background-color: black;
+    opacity: 1;
+
+}
+
+
+
+
+
 
 
 #hahn{
@@ -25,8 +46,14 @@ border:7px solid black;
 }
 
 #container{
+    /*position:fixed;
+    top: ;
+    left:100px;
+    right: ;*/
+
 display:flex;
 justify-content: right;
+z-index: 100;
 
 
 
