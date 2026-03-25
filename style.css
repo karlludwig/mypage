@@ -1,11 +1,15 @@
 .button{
 
 width:10vw;
+transition: width 0.2s;
+cursor:url('./images/new_button.svg');
+
 
 }
 
 .button:hover{
     width:12vw;
+
 }
 
 
