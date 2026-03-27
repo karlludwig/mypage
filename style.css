@@ -1,8 +1,38 @@
+
+.testcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+    background-color: aqua;
+    border:2px solid black;
+}
+
+.link{
+    font-size: 10vw;
+
+}
+
+.vector{
+    width:70%;
+}
+
+
+body{
+
+    cursor:url('./images/cursor_2.png'),auto;
+
+}
+#link{
+
+    font-size: 50pt;
+}
+
 .button{
 
 width:10vw;
 transition: width 0.2s;
-cursor:url('./images/new_button.svg');
+
 
 
 }
@@ -21,8 +51,10 @@ p{
     position: relative;
     font-family: myfont;
     opacity: 0.2;
+
     transition: background-color 2s;
-    transition: opacity 2s;
+    /*transition: opacity 2s;*/
+    
 
 
     
@@ -32,6 +64,8 @@ p{
 p:hover{
     background-color: black;
     opacity: 1;
+    
+
 
 }
 
@@ -46,6 +80,8 @@ position: relative;
 width: 50vw;
 opacity: 50%;
 border:7px solid black;
+cursor:url('./images/cursor_2.png'),auto;
+
 
 }
 
@@ -77,5 +113,18 @@ z-index: 100;
 .myfont {
     font-family: 'myFirstFont';
 }*/
+
+@media (orientation: portrait) {
+
+
+#hahn{
+
+width:100vw;
+
+
+}
+
+}
+
 
 
